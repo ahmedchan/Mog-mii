@@ -1,0 +1,32 @@
+/// setting for breakpoints and susy
+$mobile      :   400px;
+$tablet      :   700px;
+$medium      :   860px;
+$desktop     :   980px;
+$pc       :   1170px;
+$xlarge      :   1250px;
+$xxlarge     :   1500px;
+$forever     :   1750px;
+
+* {
+	@include box-sizing;
+	outline:none;
+}
+
+$susy : (
+	flow      : ltr,
+	output    : float,
+	math      : fluid, 
+	columns   : 12, 
+	container : $pc,
+	container-position : center,
+	gutters : 1/6,
+	gutter-position:split,
+	global-box-sizing : border-box
+);
+
+
+$gutterinside : layout( 12 1/4 fluid float inside );
+$gutterinsideWide : layout( 12 .5 fluid float inside );
+$gutteroutside : layout( 12 1/6 fluid float after );
+$gutteroutsideWide : layout( 12 .7 fluid float after );

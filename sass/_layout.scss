@@ -1,0 +1,90 @@
+.pwrap {
+	position:relative;
+	padding-top: 125px;
+	min-height: 100%; /* min. height for modern browser */
+    height:auto !important; /* important rule for modern Browser */
+    height:100%; /* min. height for IE */
+    overflow: hidden !important; /* FF scroll-bar */
+}
+
+///////////// content
+.content {
+	width:100%;
+	height:100%;
+	@include cfix;
+	margin:0 auto;
+	padding-bottom:60px;
+}
+
+///////////////////////////// content-wrapper }
+.content-wrapper {
+	margin:0 auto;
+	@include breakpoint(min-width $desktop){
+		width:970px;
+	}
+
+	&.hw {
+		@include breakpoint(min-width $desktop){
+			width:790px;
+		}
+	}
+
+	&.fw {
+		width: 100%;	
+		padding:0 20px;
+	}
+}
+
+//////////////////////////////// main_column
+.main_column {
+	width:585px;
+	float:left;
+	margin-top:14px;
+
+	&.wide_lg {
+		width:670px;
+	}
+}
+
+////////////////////////////// columns
+.columns {
+	width:100%;
+	@include cfix;
+}
+
+//////////////////// full_column
+.full_column {
+	width:100%;
+}
+
+
+/////////////////////////////////// aside
+.aside {
+	width:370px;
+	margin-top:14px;
+
+	&.wide_xs {
+		width:280px;
+	}
+	&.wide_xxs {
+		width: 200px;
+	}
+}
+
+////////////////////////////// offers_content
+.offers_content {
+	margin-left:290px;
+
+}
+
+
+////////////////////////////// profile_info
+.profile_info {
+	width:370px;
+}
+
+
+/////////////////////////////// profile_content
+.profile_content {
+	width:585px;
+}

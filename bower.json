@@ -1,0 +1,27 @@
+{
+  "name": "mog",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "AhmedSaeed"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap-markdown": "^2.10.0",
+    "masonry": "^4.1.1",
+    "slick-carousel": "^1.6.0",
+    "theia-sticky-sidebar": "^1.4.1",
+    "headroom.js": "https://unpkg.com/headroom.js/bower.zip"
+  }
+}

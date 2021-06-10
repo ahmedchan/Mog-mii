@@ -1,0 +1,70 @@
+<div class="modal-dialog modal-md container-style animated bounceInDown" role="document">
+	<div class="modal-content"> 
+		<div class="modal-body">
+			<div class="modal_content_section p20 ">
+				<ul class="nav nav-tabs modal_nav" role="tablist">
+					<li class="active"><a href="#exFldr" aria-controls="exFldr" role="tab" data-toggle="tab">Add to folder</a></li>
+					<li><a href="#crteFldr" aria-controls="crteFldr" role="tab" data-toggle="tab">Create new folder</a></li>
+				</ul>
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane mt-md active" id="exFldr">
+						<div class="tab-pane-content">
+							<ol class="modal_list">
+								<li>
+									<div class="modal_list_img prefix_1 radius-3"><img src="img/icons/folder-2-xxl.png" class="vhimg" alt=""></div>
+									<div class="modal_list_content mt-xs">
+										<div class="group-action pull-right">
+											<span class="fldr_type fldr_private mlr-xs text-red"><i class="fa fa-lock" aria-hidden="true"></i></span>
+											<button type="button" class="btn btn-xs btn-action-gray ripple-effect">Add to folder</button>
+										</div>
+										<h4 class="title mt-xs">Folder name here</h4>
+										<span class="date text-muted"><small>23, May 2017</small></span>
+									</div>
+								</li>
+								<li>
+									<div class="modal_list_img prefix_1 radius-3"><img src="img/icons/folder-2-xxl.png" class="vhimg" alt=""></div>
+									<div class="modal_list_content mt-xs">
+										<div class="group-action pull-right">
+											<button type="button" class="btn btn-xs btn-action-gray ripple-effect">Add to folder</button>
+										</div>
+										<div class="modal_list_title text-ellipsis mt-xs">Folder name here</div>
+										<span class="date text-muted"><small>23, May 2017</small></span>
+									</div>
+								</li>
+							</ol>
+						</div>
+					</div>
+					<div role="tabpanel" class="tab-pane mt-md" id="crteFldr">
+						<div class="tab-pane-content">
+							<form action="" method="">
+								<div class="form-group">
+									<label for="folderName" class="label_input">Foler name: <span class="require">*</span></label>
+									<input type="text" name="folderName" class="input" placeholder="write folder name...">
+								</div>
+								<div class="form-group">
+									<label for="" class="label_input">Folder will be: </label>
+									<div class="radio custom-radio radio-inline radio-sm">
+										<label>
+											<input type="radio" name="check" checked="checked">
+											<span>Public</span>
+										</label>
+									</div>
+									<div class="radio custom-radio radio-inline radio-sm">
+										<label>
+											<input type="radio" name="check">
+											<span>Private</span>
+										</label>
+									</div>
+								</div>
+
+								<div class="form-group">
+									<button type="submit" class="btn btn-md btn-blue ripple-effect">Save</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
